@@ -1,0 +1,21 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:tns="http://tempuri.org/PurchaseOrderSchema.xsd"
+            targetNamespace="http://tempuri.org/PurchaseOrderSchema.xsd"
+            elementFormDefault="qualified">
+    <xsd:element name="AddressBook" type="xsd:string"/>
+    <xsd:complexType name="Contact">
+        <xsd:sequence>
+            <xsd:element name="CompanyName"   type="xsd:string"/>
+            <xsd:element name="Email" type="xsd:string"/>
+            <xsd:element name="Address"   type="xsd:string"/>
+            <xsd:element name="Phone"  type="xsd:string"/>
+            <xsd:element name="PostalCode" type="xsd:integer"/>
+            <xsd:element name="Country"  type="xsd:string"/>
+            <xsd:element name="CustomerID"  type="xsd:string"/>
+            <xsd:element name="City"  type="xsd:string"/>
+            <xsd:element name="ContactName"  type="xsd:string"/>
+            <xsd:element name="Fax"  type="xsd:string"/>
+            <xsd:element name="ContactTitle"  type="xsd:string"/>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:schema>
